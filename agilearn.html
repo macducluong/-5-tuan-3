@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>demo-agilearn.vn</title>
+    <style>
+        .clearfix{
+            clear: both;
+        }
+        #menu{
+            border: 1px solid black;
+            height: 80px;
+            width: 100%;
+            background-color: blue;
+            position: fixed;
+        }
+        .logo{
+            height: 80px;
+            width: 200px;
+            float: left;
+            text-align: center;
+        }
+         a{
+            color: white;
+            font-size: 150%;
+            text-align: center;  text-decoration: none;
+        }
+        .main-menu li{
+            height: 80px;
+            width:150px;
+            float: left;
+            margin-top: 1px;
+            list-style-type: none;
+        }
+        .menu1{
+            height: 80px;
+            width: 350px;
+            float: left;
+        }
+        #left{
+            width: 400px;
+            height:1000px;
+            border: 1px solid white;
+            background-color: black;
+        }
+        .mau-phan-tu-left{
+            color: white;
+        }
+        .kich-thuoc-left li{
+            height: 20px;
+            background-color: white;
+            color: red;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="menu">
+        <div class="logo">
+            <h2><a href="LOGO">LOGO</a></h2>
+        </div>
+        <div class="menu1">
+            <ul class="main-menu">
+                <li><a href="#abc">dashboard</a></li>
+                <li><a href="#def">vietnamese</a></li>
+            </ul>
+        </div>
+        <div id="left" class="clearfix">
+            <ul class="mau-phan-tu-left kich-thuoc-left ">
+                <li>abc</li>
+                <li>abc</li>
+                <li>abc</li>
+                <li>abc</li>
+                <li>abc</li>
+            </ul>
+        </div>
+    </div>
+    <div></div>
+    <div></div>
+</body>
+</html>
